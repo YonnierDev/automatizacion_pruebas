@@ -1,0 +1,49 @@
+<testsuites id="" name="" tests="5" failures="1" skipped="4" errors="0" time="1.3189589999999998">
+<testsuite name="usuarios-crud.spec.js" timestamp="2025-07-21T05:24:50.541Z" hostname="chromium" tests="5" failures="1" skipped="4" time="0" errors="0">
+<testcase name="CRUD de Usuarios › debería crear un nuevo usuario correctamente" classname="usuarios-crud.spec.js" time="0">
+<failure message="usuarios-crud.spec.js:46:3 debería crear un nuevo usuario correctamente" type="FAILURE">
+<![CDATA[  [chromium] › usuarios-crud.spec.js:46:3 › CRUD de Usuarios › debería crear un nuevo usuario correctamente 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Lenovo\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\usuarios-crud-CRUD-de-Usua-e111d-nuevo-usuario-correctamente-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\usuarios-crud-CRUD-de-Usua-e111d-nuevo-usuario-correctamente-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\usuarios-crud-CRUD-de-Usua-e111d-nuevo-usuario-correctamente-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="CRUD de Usuarios › debería mostrar errores de validación con datos inválidos" classname="usuarios-crud.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CRUD de Usuarios › debería mostrar los detalles de un usuario existente" classname="usuarios-crud.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CRUD de Usuarios › debería actualizar un usuario existente" classname="usuarios-crud.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CRUD de Usuarios › debería eliminar un usuario existente" classname="usuarios-crud.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

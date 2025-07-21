@@ -1,5 +1,7 @@
 # Dependencias
 node_modules/
+frontend/node_modules/
+backend/node_modules/
 dist/
 dist-ssr/
 *.local
@@ -19,7 +21,19 @@ pnpm-debug.log*
 
 # Directorios de cobertura
 coverage/
+frontend/coverage/
+backend/coverage/
 .nyc_output/
+
+# Archivos especiales de Windows
+nul
+
+# Archivos de configuración local
+*.local
+
+# Archivos de IDE
+.vscode/
+.idea/
 
 # Archivos de sistema
 .DS_Store
